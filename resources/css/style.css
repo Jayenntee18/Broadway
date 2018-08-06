@@ -1,23 +1,28 @@
+/*Adds some template code to apply to all CSS elements.*/
 body{
   text-align:center;
   font-family:Helvetica;
 }
 
+/*Changes the style of the h1 headings.*/
 h1{
   font-size:70px;
   font-weight:bold;
   color:white;
 }
 
+/*Changes the style of the h2 headings.*/
 h2{
   font-size:32px;
   font-weight: bold;
 }
 
+/*Changes the style of the paragraphs.*/
 p{
   font-size:14px;
 }
 
+/*Changes the styles of the h4 headings.*/
 h4{
   background-color: dimgray;
   text-align:left;
@@ -25,33 +30,33 @@ h4{
   color:white;
 }
 
+/*This ensures that the linked words are still the correct colour.*/
 h4 a{
   color:white;
 }
 
+/*This governs the image added to the header class along with it's position and size.*/
 .header{
   background-image: url("..//..//images/the-flatiron-building.png");
   background-size: cover;
+  background-position: center;
 }
 
+/*This ensures that the h3 headings of the header class remain white.*/
 .header h3 a{
   font-size: 18px;
   color:white;
 }
 
-.main_content h3{
+/*This changes the h3 headings of both the main_content class and the footer class.*/
+.main_content h3, .footer h3{
   font-size:23px;
   font-weight: bold;
 }
 
+/*This changes the style of the element with id = footer_heading.*/
 #footer_heading{
-  font-size: 23px;
-  font-weight:bold;
   color:white;
   background-image: url("..//..//images/the-flatiron-building.png");
   background-position: center;
-}
-.footer h3{
-  font-size:23px;
-  font-weight: bold;
 }
